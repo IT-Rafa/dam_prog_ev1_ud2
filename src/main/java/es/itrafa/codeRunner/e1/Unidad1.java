@@ -6,6 +6,7 @@ package es.itrafa.codeRunner.e1;
     • sumarCoordenadas() que devuelve la suma de las coordenadas x e y
     • dividirCoordenadas() que devuelve la división de las coordenadas x e y
  */
+
 class Coordenadas {
     // ATTRIBUTES
     int x;
@@ -42,6 +43,5 @@ class Unidad1 {
         punto4.x = 10;
         punto4.y = 8;
         System.out.println(punto4.dividirCoordenadas());
-
     }
 }

@@ -34,10 +34,29 @@ class Unidad2 {
         System.out.println("\t- Cantidad (2 caracteres, incluyendo 0), mas espacio");
         System.out.println("\t- Descripción");
 
+
         // 1. leyendo cada línea y procesándola con substring
 /*
         System.out.print("Introduce línea venta 1: ");
         String line1 = sc.nextLine();
+
+        p1 = sc.nextDouble();
+        c1 = sc.nextInt();
+        d1 = sc.nextLine();
+
+        System.out.print("Introduce línea venta 2: ");
+        // String line2 = sc.nextLine();
+        p2 = sc.nextDouble();
+        c2 = sc.nextInt();
+        d2 = sc.nextLine();
+
+        System.out.print("Introduce línea venta 3: ");
+        // String line3 = sc.nextLine();
+        p3 = sc.nextDouble();
+        c3 = sc.nextInt();
+        d3 = sc.nextLine();
+
+        // 1. leyendo cada línea y procesándola con substring
 
         p1 = Double.parseDouble(line1.substring(0, 5));
         c1 = Integer.parseInt(line1.substring(6, 8));
@@ -57,6 +76,7 @@ class Unidad2 {
         d3 = line3.substring(9);
 */
         // 2. Obteniendo los campos directamente con los métodos next de Scanner
+
         System.out.print("Introduce línea venta 1: ");
         p1 = sc.nextDouble();
         c1 = sc.nextInt();
