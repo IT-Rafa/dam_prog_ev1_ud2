@@ -9,8 +9,18 @@ package es.itrafa.b12.prog_ev1_u2_b12_e1;
  */
 
 
+import java.util.Random;
+
 class Unidad2 {
     public static void main(String[] args) {
+        Random rand = new Random();
+        int jug = rand.nextInt(6);
 
+        System.out.print(rand.nextInt(6) + 1 + ", ");
+        System.out.print(rand.nextInt(6) + 1 + ", ");
+        System.out.print(rand.nextInt(6) + 1 + ", ");
+        System.out.print(rand.nextInt(6) + 1 + ", ");
+        System.out.print(rand.nextInt(6) + 1 + ", ");
+        System.out.print(rand.nextInt(6) + 1);
     }
 }
